@@ -36,10 +36,15 @@ Installation
 Inside a CMSSW release area:
 
 cmsrel CMSSW_16_0_X
+
 cd CMSSW_16_0_X/src
+
 cmsenv
+
 git clone https://github.com/Soumyatifr/BoostedHLT
+
 cp -r /eos/cms/store/group/phys_btag/HLT/PhysicsTools .
+
 scram b -j8
 
  
