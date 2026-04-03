@@ -1,0 +1,52 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="DataFormats/JetReco"/>
+<use name="FWCore/ServiceRegistry"/>
+<use name="CommonTools/UtilAlgos"/>
+<use name="DataFormats/VertexReco"/>
+<use name="DataFormats/HepMCCandidate"/>
+<use name="TrackingTools/TransientTrack"/>
+<use name="TrackingTools/Records"/>
+<use name="RecoBTag/FeatureTools"/>
+<use name="DataFormats/PatCandidates"/>
+<use name="DataFormats/TrackReco"/>
+<use name="SimDataFormats/TrackingHit"/>
+<use name="SimDataFormats/PileupSummaryInfo"/>
+<use name="CommonTools/RecoAlgos"/>
+<use name="DataFormats/EgammaCandidates"/>
+<use name="CommonTools/Egamma"/>
+<use name="DataFormats/EgammaCandidates"/>
+<use name="DataFormats/BeamSpot"/>
+<use name="Geometry/EcalMapping"/>
+<use name="Geometry/CaloTopology"/>
+<use name="Geometry/CaloGeometry"/>
+<use name="correctionlib"/>
+<use   name="DataFormats/L1Trigger"/>
+<use   name="CondFormats/L1TObjects"/>
+<use   name="CondFormats/DataRecord"/>
+<use   name="CondTools/L1Trigger"/>
+<use   name="xerces-c"/>
+<use   name="utm"/>
+<use   name="L1TriggerConfig/L1GtConfigProducers"/>
+<use   name="L1Trigger/L1TGlobal"/>
+<use   name="L1Trigger/L1TCommon"/>
+<use   name="L1Trigger/GlobalTrigger"/>
+<use name="RecoEcal/EgammaCoreTools"/>        <!-- EcalClusterLazyTools -->
+<use name="CommonTools/Egamma"/>              <!-- ConversionTools -->
+<use name="CondFormats/EcalObjects"/>         <!-- EcalADCToGeVConstant, EcalCondObjectContainer<float> -->
+<use name="CondFormats/DataRecord"/>          <!-- Ecal*Rcd records (EcalLaserDbRecord, EcalIntercalibConstantsRcd, ...) -->
+<use name="CalibCalorimetry/EcalLaserCorrection"/> <!-- EcalLaserDbService -->
+<use name="DataFormats/EcalRecHit"/>          <!-- rechits -->
+<use name="DataFormats/EcalDetId"/>           <!-- EBDetId/EEDetId if used -->
+<use name="DataFormats/BeamSpot"/>            <!-- Beam spot for ConversionTools -->
+<use name="DataFormats/EgammaCandidates"/>    <!-- reco::Conversion, etc. -->
+<use name="PhysicsTools/ONNXRuntime"/>
+<use name="onnxruntime"/>
+<flags EDM_PLUGIN="1"/>
+<toolset>
+    <tool name="cxxcompiler" type="compiler" version="*">
+        <flags CXXFLAGS="-flto" />
+    </tool>
+</toolset>
+

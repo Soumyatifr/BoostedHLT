@@ -1,0 +1,80 @@
+DEBUG 2026-03-17 16:43:39.025 UTC: 	 CRAB Client version: v3.251020
+DEBUG 2026-03-17 16:43:39.026 UTC: 	 Running on: Linux lxplus920.cern.ch 5.14.0-611.27.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Jan 20 05:28:20 EST 2026 x86_64 x86_64 x86_64 GNU/Linux
+DEBUG 2026-03-17 16:43:39.026 UTC: 	 Not using Singularity
+DEBUG 2026-03-17 16:43:39.026 UTC: 	 Operating System: Red Hat Enterprise Linux 9.7 (Plow)
+DEBUG 2026-03-17 16:43:39.026 UTC: 	 Executing command: 'submit'
+DEBUG 2026-03-17 16:43:39.026 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mukherje/.crab3
+INFO 2026-03-17 16:43:39.034 UTC: 	 Will use CRAB configuration file crabfile_data_2026_Muon3_2026B.py
+DEBUG 2026-03-17 16:43:39.034 UTC: 	 Loading CRAB configuration file.
+DEBUG 2026-03-17 16:43:39.113 UTC: 	 Will use CRAB plugin ANALYSIS (i.e. will run an analysis job type).
+ERROR 2026-03-17 16:43:39.114 UTC: 	 Working area '/eos/home-m/mukherje/TSG_Trigger_plots/CMSSW_16_0_2/src/HH4BAnalysis/HH4B_Trigger_SF/test/crabworkarea/crab_crab_data_2026_Muon3_2026B' already exists 
+Please change the requestName in the config file
+ERROR 2026-03-17 16:43:39.114 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/bin/crab.py", line 157, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/bin/crab.py", line 135, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])  # the crab command to be executed
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/lib/CRABClient/Commands/submit.py", line 37, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/lib/CRABClient/Commands/SubCommand.py", line 328, in __init__
+    self.requestarea, self.requestname, self.logfile = createWorkArea(
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/lib/CRABClient/ClientUtilities.py", line 392, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+CRABClient.ClientExceptions.ConfigException: Working area '/eos/home-m/mukherje/TSG_Trigger_plots/CMSSW_16_0_2/src/HH4BAnalysis/HH4B_Trigger_SF/test/crabworkarea/crab_crab_data_2026_Muon3_2026B' already exists 
+Please change the requestName in the config file
+INFO 2026-03-17 16:43:39.137 UTC: 	 Log file is /eos/home-m/mukherje/TSG_Trigger_plots/CMSSW_16_0_2/src/HH4BAnalysis/HH4B_Trigger_SF/test/crab.log
+DEBUG 2026-03-31 19:38:29.256 UTC: 	 CRAB Client version: v3.251020
+DEBUG 2026-03-31 19:38:29.256 UTC: 	 Running on: Linux lxplus926.cern.ch 5.14.0-611.35.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Feb 17 05:20:41 EST 2026 x86_64 x86_64 x86_64 GNU/Linux
+DEBUG 2026-03-31 19:38:29.256 UTC: 	 Not using Singularity
+DEBUG 2026-03-31 19:38:29.256 UTC: 	 Operating System: Red Hat Enterprise Linux 9.7 (Plow)
+DEBUG 2026-03-31 19:38:29.256 UTC: 	 Executing command: 'submit'
+DEBUG 2026-03-31 19:38:29.257 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mukherje/.crab3
+INFO 2026-03-31 19:38:29.259 UTC: 	 Will use CRAB configuration file crabfile_data_2026_Muon0_2026B.py
+DEBUG 2026-03-31 19:38:29.259 UTC: 	 Loading CRAB configuration file.
+DEBUG 2026-03-31 19:38:29.264 UTC: 	 Will use CRAB plugin ANALYSIS (i.e. will run an analysis job type).
+ERROR 2026-03-31 19:38:29.265 UTC: 	 Working area '/eos/home-m/mukherje/TSG_Trigger_plots/CMSSW_16_0_2/src/HH4BAnalysis/HH4B_Trigger_SF/test/crabworkarea/crab_crab_data_2026_Muon0_2026B' already exists 
+Please change the requestName in the config file
+ERROR 2026-03-31 19:38:29.265 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/bin/crab.py", line 157, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/bin/crab.py", line 135, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])  # the crab command to be executed
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/lib/CRABClient/Commands/submit.py", line 37, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/lib/CRABClient/Commands/SubCommand.py", line 328, in __init__
+    self.requestarea, self.requestname, self.logfile = createWorkArea(
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/lib/CRABClient/ClientUtilities.py", line 392, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+CRABClient.ClientExceptions.ConfigException: Working area '/eos/home-m/mukherje/TSG_Trigger_plots/CMSSW_16_0_2/src/HH4BAnalysis/HH4B_Trigger_SF/test/crabworkarea/crab_crab_data_2026_Muon0_2026B' already exists 
+Please change the requestName in the config file
+INFO 2026-03-31 19:38:29.271 UTC: 	 Log file is /eos/home-m/mukherje/TSG_Trigger_plots/CMSSW_16_0_2/src/HH4BAnalysis/HH4B_Trigger_SF/test/crab.log
+DEBUG 2026-03-31 20:37:36.043 UTC: 	 CRAB Client version: v3.251020
+DEBUG 2026-03-31 20:37:36.043 UTC: 	 Running on: Linux lxplus926.cern.ch 5.14.0-611.35.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Feb 17 05:20:41 EST 2026 x86_64 x86_64 x86_64 GNU/Linux
+DEBUG 2026-03-31 20:37:36.043 UTC: 	 Not using Singularity
+DEBUG 2026-03-31 20:37:36.043 UTC: 	 Operating System: Red Hat Enterprise Linux 9.7 (Plow)
+DEBUG 2026-03-31 20:37:36.043 UTC: 	 Executing command: 'submit'
+DEBUG 2026-03-31 20:37:36.070 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mukherje/.crab3
+INFO 2026-03-31 20:37:36.090 UTC: 	 Will use CRAB configuration file crabfile_data_2026_Muon0_2026B.py
+DEBUG 2026-03-31 20:37:36.090 UTC: 	 Loading CRAB configuration file.
+DEBUG 2026-03-31 20:37:36.190 UTC: 	 Will use CRAB plugin ANALYSIS (i.e. will run an analysis job type).
+ERROR 2026-03-31 20:37:36.190 UTC: 	 Task requests 4000 MB of memory, above the allowed maximum of 3000 for a 1 core(s) job.
+
+The documentation about the CRAB configuration file can be found in https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
+ERROR 2026-03-31 20:37:36.190 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/bin/crab.py", line 157, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/bin/crab.py", line 135, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])  # the crab command to be executed
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/lib/CRABClient/Commands/submit.py", line 37, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/lib/CRABClient/Commands/SubCommand.py", line 326, in __init__
+    self.loadConfig(self.options.config, self.args)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.251020.00/lib/CRABClient/Commands/SubCommand.py", line 95, in loadConfig
+    raise ConfigurationException(configmsg)
+CRABClient.ClientExceptions.ConfigurationException: Task requests 4000 MB of memory, above the allowed maximum of 3000 for a 1 core(s) job.
+
+The documentation about the CRAB configuration file can be found in https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
+INFO 2026-03-31 20:37:36.194 UTC: 	 Log file is /eos/home-m/mukherje/TSG_Trigger_plots/CMSSW_16_0_2/src/HH4BAnalysis/HH4B_Trigger_SF/test/crab.log
