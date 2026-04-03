@@ -2,13 +2,9 @@
 
 ## Overview
 
-**BoostedHLT** is a CMSSW EDAnalyzer package developed to study boosted-Higgs trigger performance and ParticleNet-based tagging at the High-Level Trigger (HLT). The package provides tools to:
+**BoostedHLT** is a CMSSW EDAnalyzer package developed to study boosted-Higgs (AK8/AK15) trigger performance and ParticleNet/GloParT-based tagging at the High-Level Trigger (HLT). The package provides tools to:
 
-- evaluate HLT ParticleNet tagging behaviour
-- compare online vs offline ParticleNet discriminators
-- compute trigger efficiencies
-- derive scale factors
-- produce ntuples for Run-3 boosted-Hbb analyses
+- evaluate HLT ParticleNet/GloParT tagging behaviour
 
 This package is designed for MiniAOD-based workflows and supports both **data** and **MC** processing.
 
